@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9abe1de1_a164d421",
+        "filename": "python-os-ken.spec",
+        "patchSetId": 12
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2018-12-14T15:57:51Z",
+      "side": 1,
+      "message": "remove it",
+      "range": {
+        "startLine": 110,
+        "startChar": 40,
+        "endLine": 110,
+        "endChar": 51
+      },
+      "revId": "d08b1e534408f2a7e81c38841fe1a6f72b0a42f8",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_c1a6a852",
+        "filename": "python-os-ken.spec",
+        "patchSetId": 12
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2018-12-14T15:57:51Z",
+      "side": 1,
+      "message": "remove it",
+      "range": {
+        "startLine": 111,
+        "startChar": 11,
+        "endLine": 111,
+        "endChar": 13
+      },
+      "revId": "d08b1e534408f2a7e81c38841fe1a6f72b0a42f8",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_21b20495",
+        "filename": "python-os-ken.spec",
+        "patchSetId": 12
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2018-12-14T15:57:51Z",
+      "side": 1,
+      "message": "install -p -m 755 bin/%{binname}  %{buildroot}%{_bindir}/%{binname}\ninstall -p -m 755 bin/%{binname}-manager  %{buildroot}%{_bindir}/%{binname}-manager",
+      "range": {
+        "startLine": 112,
+        "startChar": 0,
+        "endLine": 113,
+        "endChar": 108
+      },
+      "revId": "d08b1e534408f2a7e81c38841fe1a6f72b0a42f8",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
