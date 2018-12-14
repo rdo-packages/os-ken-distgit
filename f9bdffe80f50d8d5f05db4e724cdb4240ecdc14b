@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "9abe1de1_fcd94f84",
+        "filename": "python-os-ken.spec",
+        "patchSetId": 15
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 534
+      },
+      "writtenOn": "2018-12-14T21:05:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9abe1de1_7c03ff0d",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 54,
+        "endChar": 6
+      },
+      "revId": "f9bdffe80f50d8d5f05db4e724cdb4240ecdc14b",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9abe1de1_5c0a7b22",
         "filename": "python-os-ken.spec",
         "patchSetId": 15
@@ -36,6 +60,30 @@
       "writtenOn": "2018-12-14T16:51:26Z",
       "side": 1,
       "message": "Is there any reason to disable checks by default?",
+      "range": {
+        "startLine": 71,
+        "startChar": 0,
+        "endLine": 81,
+        "endChar": 6
+      },
+      "revId": "f9bdffe80f50d8d5f05db4e724cdb4240ecdc14b",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_dce8cb12",
+        "filename": "python-os-ken.spec",
+        "patchSetId": 15
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 534
+      },
+      "writtenOn": "2018-12-14T21:05:44Z",
+      "side": 1,
+      "message": "no, it was like that in python-ryu (which I modified) so I left it like that but I will change it",
+      "parentUuid": "9abe1de1_5c0a7b22",
       "range": {
         "startLine": 71,
         "startChar": 0,
@@ -95,6 +143,30 @@
     },
     {
       "key": {
+        "uuid": "9abe1de1_bce3d732",
+        "filename": "python-os-ken.spec",
+        "patchSetId": 15
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 534
+      },
+      "writtenOn": "2018-12-14T21:05:44Z",
+      "side": 1,
+      "message": "I just proposed patch to fix it in U/S os-ken: https://review.openstack.org/#/c/625348/",
+      "parentUuid": "9abe1de1_9c27f3b5",
+      "range": {
+        "startLine": 112,
+        "startChar": 0,
+        "endLine": 113,
+        "endChar": 83
+      },
+      "revId": "f9bdffe80f50d8d5f05db4e724cdb4240ecdc14b",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9abe1de1_fc0f0f2c",
         "filename": "python-os-ken.spec",
         "patchSetId": 15
@@ -106,6 +178,30 @@
       "writtenOn": "2018-12-14T16:51:26Z",
       "side": 1,
       "message": "Please split the documentation in a subpackage.",
+      "range": {
+        "startLine": 124,
+        "startChar": 0,
+        "endLine": 124,
+        "endChar": 15
+      },
+      "revId": "f9bdffe80f50d8d5f05db4e724cdb4240ecdc14b",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_9cd1335a",
+        "filename": "python-os-ken.spec",
+        "patchSetId": 15
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 534
+      },
+      "writtenOn": "2018-12-14T21:05:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9abe1de1_fc0f0f2c",
       "range": {
         "startLine": 124,
         "startChar": 0,
