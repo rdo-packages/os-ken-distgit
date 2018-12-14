@@ -1,0 +1,188 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9abe1de1_415e1877",
+        "filename": "python-os-ken.spec",
+        "patchSetId": 10
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2018-12-14T14:50:07Z",
+      "side": 1,
+      "message": "srcname",
+      "range": {
+        "startLine": 107,
+        "startChar": 47,
+        "endLine": 107,
+        "endChar": 56
+      },
+      "revId": "5c7fc63846582c5cb452b87680e48a74e7cecf01",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_615b5c88",
+        "filename": "python-os-ken.spec",
+        "patchSetId": 10
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2018-12-14T14:50:07Z",
+      "side": 1,
+      "message": "not defined",
+      "range": {
+        "startLine": 119,
+        "startChar": 5,
+        "endLine": 119,
+        "endChar": 15
+      },
+      "revId": "5c7fc63846582c5cb452b87680e48a74e7cecf01",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_c1734814",
+        "filename": "python-os-ken.spec",
+        "patchSetId": 10
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2018-12-14T14:50:07Z",
+      "side": 1,
+      "message": "pyver",
+      "range": {
+        "startLine": 120,
+        "startChar": 2,
+        "endLine": 120,
+        "endChar": 8
+      },
+      "revId": "5c7fc63846582c5cb452b87680e48a74e7cecf01",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_a161743b",
+        "filename": "python-os-ken.spec",
+        "patchSetId": 10
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2018-12-14T14:50:07Z",
+      "side": 1,
+      "message": "srcname",
+      "range": {
+        "startLine": 120,
+        "startChar": 20,
+        "endLine": 120,
+        "endChar": 29
+      },
+      "revId": "5c7fc63846582c5cb452b87680e48a74e7cecf01",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_81643049",
+        "filename": "python-os-ken.spec",
+        "patchSetId": 10
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2018-12-14T14:50:07Z",
+      "side": 1,
+      "message": "srcname",
+      "range": {
+        "startLine": 121,
+        "startChar": 20,
+        "endLine": 121,
+        "endChar": 29
+      },
+      "revId": "5c7fc63846582c5cb452b87680e48a74e7cecf01",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_c14a28ac",
+        "filename": "python-os-ken.spec",
+        "patchSetId": 10
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2018-12-14T14:50:07Z",
+      "side": 1,
+      "message": "pyver",
+      "range": {
+        "startLine": 121,
+        "startChar": 2,
+        "endLine": 121,
+        "endChar": 8
+      },
+      "revId": "5c7fc63846582c5cb452b87680e48a74e7cecf01",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_2156845c",
+        "filename": "python-os-ken.spec",
+        "patchSetId": 10
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2018-12-14T14:50:07Z",
+      "side": 1,
+      "message": "osken: https://github.com/openstack/os-ken/tree/master/bin",
+      "range": {
+        "startLine": 123,
+        "startChar": 11,
+        "endLine": 123,
+        "endChar": 23
+      },
+      "revId": "5c7fc63846582c5cb452b87680e48a74e7cecf01",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_01514062",
+        "filename": "python-os-ken.spec",
+        "patchSetId": 10
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2018-12-14T14:50:07Z",
+      "side": 1,
+      "message": "osken",
+      "range": {
+        "startLine": 124,
+        "startChar": 11,
+        "endLine": 124,
+        "endChar": 23
+      },
+      "revId": "5c7fc63846582c5cb452b87680e48a74e7cecf01",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
