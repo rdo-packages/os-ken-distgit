@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7ad32947_99af7f94",
+        "filename": "python-os-ken.spec",
+        "patchSetId": 28
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-12-19T11:38:01Z",
+      "side": 1,
+      "message": "According to fedora policy, this should be \"ASL 2.0\"",
+      "range": {
+        "startLine": 24,
+        "startChar": 16,
+        "endLine": 24,
+        "endChar": 26
+      },
+      "revId": "37130db4d08ac9fbbc4897cccfc8c743962870cf",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
