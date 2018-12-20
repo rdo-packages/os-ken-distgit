@@ -124,7 +124,7 @@ export PBR_VERSION=%{version}
 %{pyver_install}
 
 install -d -m 755 %{buildroot}%{_sysconfdir}/%{srcname}
-install -p -m 640 etc/%{srcname}/%{srcname}.conf  %{buildroot}%{_sysconfdir}/%{srcname}/%{srcname}.conf
+install -p -m 644 etc/%{srcname}/%{srcname}.conf  %{buildroot}%{_sysconfdir}/%{srcname}/%{srcname}.conf
 
 %check
 # Tests without virtualenv (N) and without PEP8 tests (P)
@@ -137,7 +137,7 @@ PYTHON=python%{pyver} ./run_tests.sh -N -P
 %{_bindir}/%{binname}
 %{_bindir}/%{binname}-manager
 %dir %{_sysconfdir}/%{srcname}
-%config(noreplace) %attr(0640, root, neutron) %{_sysconfdir}/%{srcname}/%{srcname}.conf
+%config(noreplace) %attr(0644, root, neutron) %{_sysconfdir}/%{srcname}/%{srcname}.conf
 
 %if 0%{?with_doc}
 %files doc
