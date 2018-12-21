@@ -27,6 +27,8 @@ Source:         http://tarballs.openstack.org/%{pypi_name}/%{pypi_name}-%{upstre
 
 BuildArch:      noarch
 
+BuildRequires:  git
+
 %description
 Os-ken is a fork of Ryu. It provides software components with well
 defined API that make it easy for developers to create new network
