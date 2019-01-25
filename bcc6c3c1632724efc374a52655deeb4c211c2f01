@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ad0253b_4f87be61",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 534
+      },
+      "writtenOn": "2019-01-25T15:56:06Z",
+      "side": 1,
+      "message": "I think this isn\u0027t necessary here :)",
+      "range": {
+        "startLine": 9,
+        "startChar": 4,
+        "endLine": 9,
+        "endChar": 7
+      },
+      "revId": "bcc6c3c1632724efc374a52655deeb4c211c2f01",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
