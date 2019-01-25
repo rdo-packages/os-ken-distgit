@@ -43,7 +43,6 @@ BuildRequires:  python%{pyver}-debtcollector
 BuildRequires:  python%{pyver}-eventlet
 BuildRequires:  python%{pyver}-greenlet
 BuildRequires:  python%{pyver}-msgpack
-BuildRequires:  python%{pyver}-openstackdocstheme
 BuildRequires:  python%{pyver}-openvswitch
 BuildRequires:  python%{pyver}-oslo-config
 BuildRequires:  python%{pyver}-paramiko
@@ -98,8 +97,8 @@ management and control applications.
 %if 0%{?with_doc}
 %package doc
 Summary: Os-ken documentation
-
 BuildRequires:  python%{pyver}-sphinx
+BuildRequires:  python%{pyver}-openstackdocstheme
 
 %description doc
 Documentation for os-ken
