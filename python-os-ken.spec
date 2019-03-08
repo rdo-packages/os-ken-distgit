@@ -39,7 +39,6 @@ Summary: Component-based Software-defined Networking Framework
 %{?python_provide:%python_provide python%{pyver}-%{pypi_name}}
 
 BuildRequires:  python%{pyver}-devel
-BuildRequires:  python%{pyver}-debtcollector
 BuildRequires:  python%{pyver}-eventlet
 BuildRequires:  python%{pyver}-greenlet
 BuildRequires:  python%{pyver}-msgpack
@@ -71,7 +70,7 @@ BuildRequires:  python%{pyver}-pep8
 %endif
 
 Requires:  python%{pyver}-eventlet
-Requires:  python%{pyver}-debtcollector
+Requires:  python%{pyver}-pbr >= 2.0
 Requires:  python%{pyver}-msgpack
 Requires:  python%{pyver}-netaddr
 Requires:  python%{pyver}-openvswitch
