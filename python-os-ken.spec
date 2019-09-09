@@ -23,7 +23,7 @@ Summary:        Component-based Software-defined Networking Framework
 
 License:        ASL 2.0
 Url:            http://github.com/openstack/os-ken
-Source:         http://tarballs.openstack.org/%{pypi_name}/%{pypi_name}-%{upstream_version}.tar.gz
+Source0:         http://tarballs.openstack.org/%{pypi_name}/%{pypi_name}-%{upstream_version}.tar.gz
 
 BuildArch:      noarch
 
