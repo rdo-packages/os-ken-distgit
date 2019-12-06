@@ -62,11 +62,9 @@ BuildRequires:  python%{pyver}-tinyrpc
 %if %{pyver} == 2
 BuildRequires:  python-lxml
 BuildRequires:  python-repoze-lru
-BuildRequires:  python-pep8
 %else
 BuildRequires:  python%{pyver}-lxml
 BuildRequires:  python%{pyver}-repoze-lru
-BuildRequires:  python%{pyver}-pep8
 %endif
 
 Requires:  python%{pyver}-eventlet
