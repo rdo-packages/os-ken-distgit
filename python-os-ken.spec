@@ -40,7 +40,6 @@ BuildRequires:  python3-setuptools
 BuildRequires:  python3-webob
 BuildRequires:  python3-dns
 
-BuildRequires:  python3-coverage
 BuildRequires:  python3-nose
 BuildRequires:  python3-mock
 BuildRequires:  python3-monotonic
