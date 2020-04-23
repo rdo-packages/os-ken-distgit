@@ -51,7 +51,6 @@ BuildRequires:  python%{pyver}-setuptools
 BuildRequires:  python%{pyver}-webob
 BuildRequires:  python%{pyver}-dns
 
-BuildRequires:  python%{pyver}-coverage
 BuildRequires:  python%{pyver}-nose
 BuildRequires:  python%{pyver}-mock
 BuildRequires:  python%{pyver}-monotonic
