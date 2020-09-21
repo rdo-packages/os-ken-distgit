@@ -6,8 +6,8 @@
 %global with_doc 1
 
 Name:           python-%{pypi_name}
-Version:        XXX
-Release:        XXX
+Version:        1.2.0
+Release:        1%{?dist}
 Summary:        Component-based Software-defined Networking Framework
 
 License:        ASL 2.0
@@ -122,3 +122,6 @@ PYTHON=%{__python3} ./run_tests.sh -N -P
 %endif
 
 %changelog
+* Mon Sep 21 2020 RDO <dev@lists.rdoproject.org> 1.2.0-1
+- Update to 1.2.0
+
