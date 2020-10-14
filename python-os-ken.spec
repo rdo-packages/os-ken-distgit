@@ -1,3 +1,5 @@
+%{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
+%global sources_gpg_sign 0x2426b928085a020d8a90d0d879ab7008d0896c8a
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 %global pypi_name os-ken
 %global srcname os_ken
@@ -7,14 +9,25 @@
 
 Name:           python-%{pypi_name}
 Version:        1.2.0
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Component-based Software-defined Networking Framework
 
 License:        ASL 2.0
 Url:            http://github.com/openstack/os-ken
 Source0:        http://tarballs.openstack.org/%{pypi_name}/%{pypi_name}-%{upstream_version}.tar.gz
+# Required for tarball sources verification
+%if 0%{?sources_gpg} == 1
+Source101:        http://tarballs.openstack.org/%{pypi_name}/%{pypi_name}-%{upstream_version}.tar.gz.asc
+Source102:        https://releases.openstack.org/_static/%{sources_gpg_sign}.txt
+%endif
 
 BuildArch:      noarch
+
+# Required for tarball sources verification
+%if 0%{?sources_gpg} == 1
+BuildRequires:  /usr/bin/gpgv2
+BuildRequires:  openstack-macros
+%endif
 
 BuildRequires:  git
 
@@ -79,6 +92,10 @@ Documentation for os-ken
 %endif
 
 %prep
+# Required for tarball sources verification
+%if 0%{?sources_gpg} == 1
+%{gpgverify}  --keyring=%{SOURCE102} --signature=%{SOURCE101} --data=%{SOURCE0}
+%endif
 %autosetup -n %{pypi_name}-%{upstream_version} -S git
 
 # (TODO) remove this line once https://review.openstack.org/#/c/625704/ is tagged and
@@ -122,6 +139,9 @@ PYTHON=%{__python3} ./run_tests.sh -N -P
 %endif
 
 %changelog
+* Wed Oct 21 2020 Joel Capitao <jcapitao@redhat.com> 1.2.0-2
+- Enable sources tarball validation using GPG signature.
+
 * Mon Sep 21 2020 RDO <dev@lists.rdoproject.org> 1.2.0-1
 - Update to 1.2.0
 
