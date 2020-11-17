@@ -29,7 +29,7 @@ BuildRequires:  /usr/bin/gpgv2
 BuildRequires:  openstack-macros
 %endif
 
-BuildRequires:  git
+BuildRequires:  git-core
 
 %description
 Os-ken is a fork of Ryu. It provides software components with well
