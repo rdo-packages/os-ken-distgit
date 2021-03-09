@@ -63,7 +63,7 @@ BuildRequires:  python3-lxml
 BuildRequires:  python3-repoze-lru
 
 Requires:  python3-eventlet
-Requires:  python3-pbr >= 2.0
+Requires:  python3-pbr >= 2.0.0
 Requires:  python3-msgpack
 Requires:  python3-netaddr
 Requires:  python3-openvswitch
