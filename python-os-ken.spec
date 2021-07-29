@@ -48,7 +48,6 @@ BuildRequires:  python3-openvswitch
 BuildRequires:  python3-oslo-config
 BuildRequires:  python3-paramiko
 BuildRequires:  python3-routes
-BuildRequires:  python3-tinyrpc
 BuildRequires:  python3-setuptools
 BuildRequires:  python3-webob
 BuildRequires:  python3-dns
@@ -56,8 +55,6 @@ BuildRequires:  python3-dns
 BuildRequires:  python3-nose
 BuildRequires:  python3-mock
 BuildRequires:  python3-monotonic
-
-BuildRequires:  python3-tinyrpc
 
 BuildRequires:  python3-lxml
 BuildRequires:  python3-repoze-lru
@@ -71,7 +68,6 @@ Requires:  python3-oslo-config
 Requires:  python3-paramiko
 Requires:  python3-routes
 Requires:  python3-six
-Requires:  python3-tinyrpc
 Requires:  python3-webob
 
 Requires:  python3-lxml
