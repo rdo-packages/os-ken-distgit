@@ -135,3 +135,4 @@ PYTHON=%{__python3} ./run_tests.sh -N -P
 %endif
 
 %changelog
+# REMOVEME: error caused by commit https://opendev.org/openstack/os-ken/commit/7911ff1820b83bf1657c322c36ca68dcb5c0a846
