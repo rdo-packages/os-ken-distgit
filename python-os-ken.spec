@@ -1,5 +1,5 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0x5d2d1e4fb8d38e6af76c50d53d4fec30cf5ce3da
+%global sources_gpg_sign 0x01527a34f0d0080f8a5db8d6eb6c5df21b4b6363
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 %global pypi_name os-ken
 %global srcname os_ken
@@ -8,7 +8,7 @@
 %global with_doc 1
 
 Name:           python-%{pypi_name}
-Version:        1.4.0
+Version:        1.4.1
 Release:        1%{?dist}
 Summary:        Component-based Software-defined Networking Framework
 
@@ -139,6 +139,9 @@ PYTHON=%{__python3} ./run_tests.sh -N -P
 %endif
 
 %changelog
+* Fri Feb 04 2022 RDO <dev@lists.rdoproject.org> 1.4.1-1
+- Update to 1.4.1
+
 * Fri Mar 12 2021 RDO <dev@lists.rdoproject.org> 1.4.0-1
 - Update to 1.4.0
 
