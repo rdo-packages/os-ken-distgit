@@ -41,6 +41,7 @@ Summary: Component-based Software-defined Networking Framework
 %{?python_provide:%python_provide python3-%{pypi_name}}
 
 BuildRequires:  python3-devel
+BuildRequires:  python3-wheel
 BuildRequires:  python3-eventlet
 BuildRequires:  python3-greenlet
 BuildRequires:  python3-msgpack
@@ -52,7 +53,6 @@ BuildRequires:  python3-setuptools
 BuildRequires:  python3-webob
 BuildRequires:  python3-dns
 
-BuildRequires:  python3-nose
 BuildRequires:  python3-mock
 BuildRequires:  python3-monotonic
 
@@ -115,8 +115,7 @@ install -d -m 755 %{buildroot}%{_sysconfdir}/%{srcname}
 install -p -m 644 etc/%{srcname}/%{srcname}.conf  %{buildroot}%{_sysconfdir}/%{srcname}/%{srcname}.conf
 
 %check
-# Tests without virtualenv (N) and without PEP8 tests (P)
-PYTHON=%{__python3} ./run_tests.sh -N -P
+python3 setup.py test
 
 %files -n python3-%{pypi_name}
 %license LICENSE
