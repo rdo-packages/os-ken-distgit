@@ -52,12 +52,15 @@ BuildRequires:  python3-setuptools
 BuildRequires:  python3-webob
 BuildRequires:  python3-dns
 
-BuildRequires:  python3-nose
 BuildRequires:  python3-mock
 BuildRequires:  python3-monotonic
 
 BuildRequires:  python3-lxml
 BuildRequires:  python3-repoze-lru
+
+BuildRequires:  python3-stestr
+BuildRequires:  python3-testscenarios
+BuildRequires:  python3-ncclient
 
 Requires:  python3-eventlet
 Requires:  python3-pbr >= 2.0.0
@@ -115,8 +118,7 @@ install -d -m 755 %{buildroot}%{_sysconfdir}/%{srcname}
 install -p -m 644 etc/%{srcname}/%{srcname}.conf  %{buildroot}%{_sysconfdir}/%{srcname}/%{srcname}.conf
 
 %check
-# Tests without virtualenv (N) and without PEP8 tests (P)
-PYTHON=%{__python3} ./run_tests.sh -N -P
+stestr run
 
 %files -n python3-%{pypi_name}
 %license LICENSE
