@@ -115,8 +115,7 @@ install -d -m 755 %{buildroot}%{_sysconfdir}/%{srcname}
 install -p -m 644 etc/%{srcname}/%{srcname}.conf  %{buildroot}%{_sysconfdir}/%{srcname}/%{srcname}.conf
 
 %check
-# Tests without virtualenv (N) and without PEP8 tests (P)
-PYTHON=%{__python3} ./run_tests.sh -N -P
+python3 setup.py test
 
 %files -n python3-%{pypi_name}
 %license LICENSE
