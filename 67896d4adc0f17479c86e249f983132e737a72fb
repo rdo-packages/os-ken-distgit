@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "00b14794_e7afe082",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2022-08-29T09:52:08Z",
+      "side": 1,
+      "message": "After [1] merged, we\u0027ll recheck it in Trunk\n\n[1] https://review.rdoproject.org/r/c/rdoinfo/+/44643",
+      "revId": "67896d4adc0f17479c86e249f983132e737a72fb",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
