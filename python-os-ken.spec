@@ -137,3 +137,4 @@ stestr run
 %endif
 
 %changelog
+# REMOVEME: error caused by commit https://opendev.org/openstack/os-ken/commit/90328068b8394970b9f2f5ce422c48783f4bfe8a
