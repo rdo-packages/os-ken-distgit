@@ -51,13 +51,10 @@ BuildRequires:  python3-routes
 BuildRequires:  python3-setuptools
 BuildRequires:  python3-webob
 BuildRequires:  python3-dns
-
 BuildRequires:  python3-mock
 BuildRequires:  python3-monotonic
-
 BuildRequires:  python3-lxml
 BuildRequires:  python3-repoze-lru
-
 BuildRequires:  python3-stestr
 BuildRequires:  python3-testscenarios
 BuildRequires:  python3-ncclient
@@ -70,10 +67,9 @@ Requires:  python3-openvswitch
 Requires:  python3-oslo-config
 Requires:  python3-paramiko
 Requires:  python3-routes
-Requires:  python3-six
 Requires:  python3-webob
-
 Requires:  python3-lxml
+Requires:  python3-ncclient >= 0.6.13
 
 %description -n python3-%{pypi_name}
 Os-ken is a fork of Ryu. It provides software components with well
