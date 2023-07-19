@@ -1,0 +1,9 @@
+Code-Review+2: Alfredo Moralejo <amoralej@redhat.com>
+Code-Review+2: Karolina Kula <kkula@redhat.com>
+Workflow+1: Karolina Kula <kkula@redhat.com>
+Verified+2: Zuul CI <zuul@review.rdoproject.org>
+Submitted-by: Zuul CI <zuul@review.rdoproject.org>
+Submitted-at: Wed, 19 Jul 2023 14:50:58 +0000
+Reviewed-on: https://review.rdoproject.org/r/c/openstack/os-ken-distgit/+/49204
+Project: openstack/os-ken-distgit
+Branch: refs/heads/rpm-master
