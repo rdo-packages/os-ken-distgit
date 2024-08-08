@@ -1,5 +1,5 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0xa7475c5f2122fec3f90343223fe3bf5aad1080e4
+%global sources_gpg_sign 0xf8675126e2411e7748dd46662fc2093e4682645f
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 %global pypi_name os-ken
 %global srcname os_ken
@@ -8,7 +8,7 @@
 %global with_doc 1
 
 Name:           python-%{pypi_name}
-Version:        2.6.0
+Version:        2.6.1
 Release:        1%{?dist}
 Summary:        Component-based Software-defined Networking Framework
 
@@ -133,6 +133,9 @@ stestr run
 %endif
 
 %changelog
+* Thu Aug 08 2024 RDO <dev@lists.rdoproject.org> 2.6.1-1
+- Update to 2.6.1
+
 * Thu Mar 09 2023 RDO <dev@lists.rdoproject.org> 2.6.0-1
 - Update to 2.6.0
 
