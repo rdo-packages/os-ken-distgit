@@ -1,0 +1,8 @@
+Verified+2: Zuul CI <zuul@review.rdoproject.org>
+Workflow+1: Joel Capitao <jcapitao@redhat.com>
+Code-Review+2: Joel Capitao <jcapitao@redhat.com>
+Submitted-by: Zuul CI <zuul@review.rdoproject.org>
+Submitted-at: Tue, 17 Sep 2024 08:29:41 +0000
+Reviewed-on: https://review.rdoproject.org/r/c/openstack/os-ken-distgit/+/54401
+Project: openstack/os-ken-distgit
+Branch: refs/heads/dalmatian-rdo
