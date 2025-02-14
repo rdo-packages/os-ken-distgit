@@ -1,5 +1,5 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0x815AFEC729392386480E076DCC0DFE2D21C023C9
+%global sources_gpg_sign 0x22284f69d9eccdf3df7819791c711af193ff8e54
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 # we are excluding some BRs from automatic generator
 %global excluded_brs doc8 bandit pre-commit hacking flake8-import-order pylint
@@ -13,7 +13,7 @@
 %global with_doc 1
 
 Name:           python-%{pypi_name}
-Version:        2.7.0
+Version:        2.7.1
 Release:        1%{?dist}
 Summary:        Component-based Software-defined Networking Framework
 
@@ -124,6 +124,9 @@ install -p -m 644 etc/%{srcname}/%{srcname}.conf  %{buildroot}%{_sysconfdir}/%{s
 %endif
 
 %changelog
+* Fri Feb 14 2025 RDO <dev@lists.rdoproject.org> 2.7.1-1
+- Update to 2.7.1
+
 * Fri Sep 01 2023 RDO <dev@lists.rdoproject.org> 2.7.0-1
 - Update to 2.7.0
 
